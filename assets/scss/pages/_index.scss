@@ -1,0 +1,106 @@
+body {
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.breadcrumb-list {
+  display: flex;
+
+}
+
+.breadcrumb-list li a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.breadcrumb-list .pageActive {
+  color: #6C757D;
+}
+
+.h1 {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.menu-list {
+  display: block;
+  padding: 8px 0px;
+  text-decoration: none;
+  color: #212529;
+}
+
+.allProduct {
+  color: #57A203;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h6{
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+.page{
+  display: flex;
+  margin: 0 auto; 
+}
+
+.page-item{
+  color: #212529;
+  text-decoration: none;
+  display: block;
+  padding: 8px 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-2 {
+  width: 16.66666%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+
+.px-12 {
+  padding: 0px 12px;
+}
+
+.mb-12{
+  margin-bottom: 12px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.mb-24{
+  margin-bottom: 24px;
+}
+
+.mb-48{
+  margin-bottom: 48px;
+}

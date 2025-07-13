@@ -1,0 +1,41 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerList{
+ display: flex;
+ align-items: center;
+}
+
+.headerList a{
+  display: block;
+  color: #212529;
+  text-decoration: none;
+}
+
+.headerList a:hover{
+  color: #6C757D;
+  border-bottom: 1px  solid #6C757D;
+}
+
+.headerList .logo:hover{
+  border-bottom: none;
+}
+
+.logo{
+  margin-right: 48px;
+}
+
+.memberBtn{
+  padding: 15px;          
+}
+
+.mr-40{
+  margin-right: 40px;
+}
+
+.py-12{
+  padding: 12px 0px;
+}
