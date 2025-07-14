@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 17px 0px;
 }
 
 .headerList{
@@ -13,19 +14,24 @@
   display: block;
   color: #212529;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
 }
 
 .headerList a:hover{
   color: #6C757D;
-  border-bottom: 1px  solid #6C757D;
+  border-color: #6C757D;
 }
 
 .headerList .logo:hover{
-  border-bottom: none;
+  border-bottom: 1px solid transparent;
 }
 
 .logo{
   margin-right: 48px;
+}
+
+.logo img{
+  display: block;
 }
 
 .memberBtn{

@@ -43,101 +43,128 @@ body {
   color: #212529;
 }
 
+.menu-list:hover {
+  color: #6C757D;
+}
+
 .allProduct {
   color: #57A203;
+}
+
+.card{
+  overflow: visible;
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  transition: box-shadow .3s ease, transform .3s ease;
+}
+
+.card a:hover .card-img {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .25);
 }
 
 .card img {
   width: 100%;
 }
 
-.card h6{
+.card h6 {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 4px;
 }
 
-.page{
+.page {
   display: flex;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
-.page-item{
+.page-item {
   color: #212529;
   text-decoration: none;
   display: block;
   padding: 8px 15px;
 }
 
-.row{
+.page-item:hover,
+.page-item:focus {
+  background: #f5f5f5;
+}
+
+.row {
   display: flex;
   flex-wrap: wrap;
 }
 
-.col-2{
+.col-2 {
   width: 16.66666%;
 }
 
-.col-4{
+.col-4 {
   width: 33.33333%;
 }
 
-.col-5{
+.col-5 {
   width: 41.66667%;
 }
 
-.col-7{
+.col-7 {
   width: 58.33333%;
 }
 
-.col-10{
+.col-10 {
   width: 83.33333%;
 }
 
-.px-12{
+.px-12 {
   padding: 0px 12px;
 }
 
-.pl-16{
+.pl-16 {
   padding-left: 16px;
 }
 
-.mt-12{
+.mt-12 {
   margin-top: 12px;
 }
 
-.mr-8{
+.mt-48{
+  margin-top: 48px;
+}
+
+.mr-8 {
   margin-right: 8px;
 }
 
-.mb-4{
+.mb-4 {
   margin-bottom: 4px;
 }
 
-.mb-8{
+.mb-8 {
   margin-bottom: 8px;
 }
 
-.mb-12{
+.mb-12 {
   margin-bottom: 12px;
 }
 
-.mb-16{
+.mb-16 {
   margin-bottom: 16px;
 }
 
-.mb-20{
+.mb-20 {
   margin-bottom: 20px;
 }
 
-.mb-24{
+.mb-24 {
   margin-bottom: 24px;
 }
 
-.mb-32{
+.mb-32 {
   margin-bottom: 32px;
 }
 
-.mb-48{
+.mb-48 {
   margin-bottom: 48px;
 }

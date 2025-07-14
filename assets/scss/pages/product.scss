@@ -1,64 +1,63 @@
-.content{
+.product-content {
     display: flex;
-    margin: 64px 0px;
-    justify-content: space-between;
+    padding: 64px 0px;
 }
 
-.product{
+.product {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
 
-.product-img{
+.product-img {
     max-width: 369px;
 }
 
-.product-img img{
+.product-img img {
     display: block;
     width: 100%;
 }
 
-.product-right{
+.product-right {
     display: flex;
     flex-direction: column;
 }
 
-.product-title{
+.product-title {
     font-size: 32px;
     font-weight: 700;
     line-height: 1.2;
 }
 
-.price{
+.price {
     display: flex;
     align-items: end;
 }
 
-.sale{
+.sale {
     font-size: 20px;
     font-weight: 700;
     line-height: 1.2;
     color: #57A203;
 }
 
-.original{
+.original {
     font-size: 14px;
     font-weight: 400;
     color: #ADB5BD;
 }
 
-.product-right p{
+.product-right p {
     font-weight: 400;
 }
 
-.color-list{
+.color-list {
     display: flex;
     text-align: center;
     gap: 8px;
 }
 
-.color-list p{
+.color-list p {
     color: #6C757D;
 }
 
@@ -66,15 +65,21 @@
     display: block;
     width: 64px;
     height: 64px;
+    border: 1px solid transparent;
 }
 
-.sizeList{
+.color a:hover img, 
+.color a:focus img{
+    border-color: #212529;
+}
+
+.sizeList {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
 
-.sizeBtn{
+.sizeBtn {
     display: block;
     text-align: center;
     padding: 12px 24px;
@@ -84,17 +89,32 @@
     text-decoration: none;
 }
 
-.remaining{
+.sizeBtn:hover,
+.sizeBtn:focus {
+    border-color: #212529;
+}
+
+.sizeBtn.disabled,
+.sizeBtn[aria-disabled="true"] {
+    pointer-events: none;
+    /* 真正禁用點擊 */
+    background: #F8F9FA;
+    border-color: #E0E0E0;
+    color: #ADB5BD;
+    cursor: default;
+}
+
+.remaining {
     font-size: 14px;
     font-weight: 400;
     color: #D74F4F;
 }
 
-.buying{
+.buying {
     display: flex;
 }
 
-.buyBtn{
+.buyBtn {
     display: block;
     border: 1px solid #212529;
     border-radius: 4px;
@@ -102,24 +122,35 @@
     text-decoration: none;
 }
 
-.favorite{
+.favorite {
     padding: 12px 82px;
 }
 
-.fitting{
+.fitting {
     padding: 12px 65.5px;
 }
 
-.buyBtn:hover{
+.buyBtn:hover {
     color: white;
     background-color: #212529;
 }
 
-.production-item{
+.production-item {
     border-bottom: 1px solid #DEE2E6;
 }
 
-.production-item ul li{
+.production-item ul li {
     font-weight: 400;
     color: #6C757D;
+}
+
+.maylike-text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 9.5px 0px;
+}
+
+.like-list {
+    display: flex;
 }
