@@ -33,9 +33,12 @@
 }
 
 .footerList {
+  max-width: 1296px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #DEE2E6;
 }
 
 .footerList a {
@@ -64,7 +67,7 @@
   font-weight: 400;
   text-align: center;
   padding-top: 32px;
-  border-top: 1px solid #DEE2E6;
+  
 }
 
 .mb-4 {
