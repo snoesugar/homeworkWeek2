@@ -33,12 +33,14 @@
 }
 
 .footerList {
-  max-width: 1296px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   padding-bottom: 24px;
   border-bottom: 1px solid #DEE2E6;
+}
+
+.footerList li:first-child {
+    margin-right: auto;
 }
 
 .footerList a {
@@ -49,16 +51,12 @@
 }
 
 .footerList a:hover {
-  color: #6C757D;
-  border-color: #6C757D;
+  color: #57A203; 
+  border-color: #57A203;
 }
 
 .footerList .logo:hover {
   border-bottom: 1px solid transparent;
-}
-
-.mr-auto {
-  margin-right: auto;
 }
 
 .copyRight {

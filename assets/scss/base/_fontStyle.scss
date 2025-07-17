@@ -1,0 +1,61 @@
+body {
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  font-family: "Noto Sans TC", "sans-serif";
+}
+
+/*index.html*/
+.h1 {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.card h2 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+/*product.html*/
+.product-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.sale {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #57A203;
+}
+
+.original {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ADB5BD;
+}
+
+.product-right p {
+  font-weight: 400;
+}
+
+.remaining {
+  font-size: 14px;
+  font-weight: 400;
+  color: #D74F4F;
+}
+
+.production-item ul li {
+  font-weight: 400;
+  color: #6C757D;
+}
+
+.maylike-text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
