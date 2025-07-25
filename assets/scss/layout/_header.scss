@@ -1,13 +1,12 @@
 .header{
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 17px 0px;
 }
 
 .headerList{
- display: flex;
- align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .headerList a{
@@ -35,7 +34,8 @@
 }
 
 .memberBtn{
-  padding: 15px;          
+  padding: 15px;   
+  margin-left: auto;
 }
 
 .mr-40{
